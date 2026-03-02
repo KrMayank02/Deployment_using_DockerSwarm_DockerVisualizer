@@ -1,4 +1,4 @@
-# Deployment using Docker Swarm and Docker Visualizer
+# Application Deployment using Docker Swarm and monitoring using Docker Visualizer
 
 **Objective:** The Project is implemented to deploy a scalable, multi-service voting application on a Docker Swarm manager node, ensure efficient orchestration, fault tolerance, and seamless monitoring through Docker Visualizer.
 
@@ -29,6 +29,15 @@ To monitor the deployment, John integrates Docker Visualizer as a microservice, 
 -	Result Service: A Node.js web app which shows the results of the voting in real time from db.
 
 **High Level Project Tasks:**
+
+- Create an EC2 Instance in AWS Cloud Infrastructure which we will be using as Swarm Manager (Host Machine).
+- To create Docker Swarm Manager (Host).
+- To create Docker Compose file for Application.
+- To update the security group settings of Host Machine (EC2 Instance) to allow the traffic on specific ports on which app services 
+(vote and results) are running.
+- To verify the deployment of micro-services-application by accessing the application via public-ip of Host machine.
+- To Monitor the Deployment, we need to integrate Docker Visualizer as a microservice, to providing real-time insights.
+- 
 
 
 
