@@ -37,9 +37,42 @@ To monitor the deployment, John integrates Docker Visualizer as a microservice, 
 (vote and results) are running.
 - To verify the deployment of micro-services-application by accessing the application via public-ip of Host machine.
 - To Monitor the Deployment, we need to integrate Docker Visualizer as a microservice, to providing real-time insights.
-- 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Result Screenshots
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<img width="948" height="227" alt="image" src="https://github.com/user-attachments/assets/b5d7414d-1174-4d8a-a9ed-c101e0336c2d" />
+
+<img width="938" height="203" alt="image" src="https://github.com/user-attachments/assets/a0c384f5-08f2-4772-973d-f46cc4713f3a" />
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="928" height="244" alt="image" src="https://github.com/user-attachments/assets/173e9916-9cbd-496a-b8a5-729fa272837c" />
+
+<img width="943" height="415" alt="image" src="https://github.com/user-attachments/assets/d1e4ef70-ff18-4b68-b572-8acd97a1e7f2" />
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="941" height="530" alt="image" src="https://github.com/user-attachments/assets/b90f5cff-7124-4169-9149-b1d043d50525" />
+
+On any web browser, hit the URL for vote:
+http://54.164.61.71:1000/
+Now the Application is accessible, please find below the screenshot:
+
+<img width="787" height="594" alt="image" src="https://github.com/user-attachments/assets/67025be0-aee1-4173-85d2-d531a540b005" />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="933" height="550" alt="image" src="https://github.com/user-attachments/assets/92b44be5-995e-496b-a42f-261d2ea63d51" />
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Docker Visualizer page is getting opened with correct Swarm manager private-ip and all the app-services containers details. 
+
+PFB the screenshot:
+
+<img width="950" height="586" alt="image" src="https://github.com/user-attachments/assets/6805a8fb-611e-4224-a418-46c75c87517f" />
 
