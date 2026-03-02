@@ -59,7 +59,9 @@ To monitor the deployment, John integrates Docker Visualizer as a microservice, 
 <img width="941" height="530" alt="image" src="https://github.com/user-attachments/assets/b90f5cff-7124-4169-9149-b1d043d50525" />
 
 On any web browser, hit the URL for vote:
+
 http://54.164.61.71:1000/
+
 Now the Application is accessible, please find below the screenshot:
 
 <img width="787" height="594" alt="image" src="https://github.com/user-attachments/assets/67025be0-aee1-4173-85d2-d531a540b005" />
