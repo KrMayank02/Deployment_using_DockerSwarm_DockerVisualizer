@@ -12,4 +12,25 @@ To monitor the deployment, John integrates Docker Visualizer as a microservice, 
 - Swarm Cluster: It is a group of Docker nodes working together as a single system to deploy and manage services. It provides built-in orchestration, ensuring high availability, scalability, and efficient load balancing across containers.
 - Docker Compose: It is used to define and manage multi-container Docker applications. It specifies the services, networks, and volumes required for the application.
 
+**High Level Diagram:**
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="838" height="828" alt="image" src="https://github.com/user-attachments/assets/06025b57-7255-48a0-83b6-d5f1a32a9ab9" />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**To Understand the architecture of Voting Application:**
+
+-	Vote Service: A front-end web app in Python which lets you vote between two options. It communicates with the Redis server.
+-	Redis Service: A Redis (in-memory database) which collects new votes from the vote service.
+-	Worker Service: A .NET worker which consumes votes and stores them in database. It communicates with Redis service for vote collection and db service for vote storage.
+-	DB Service: A Postgres database storing the votes backed by a Docker volume.
+-	Result Service: A Node.js web app which shows the results of the voting in real time from db.
+
+**High Level Project Tasks:**
+
+
+
+
 
