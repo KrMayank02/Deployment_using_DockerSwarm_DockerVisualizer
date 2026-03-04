@@ -9,10 +9,10 @@ To monitor the deployment, John integrates Docker Visualizer as a microservice, 
 
 ## Major Tools, Environment Used in This Project:
 
-- Docker Swarm: The stack is deployed using Docker swarm, a container orchestration tool that allows you to manage a cluster of Docker nodes and deploy services across them.
-- Docker Microservices: These are small and independent services that run in separate containers, each handling a specific function within an application. This architecture allows for modular development, scalability, and easier maintenance.
-- Swarm Cluster: It is a group of Docker nodes working together as a single system to deploy and manage services. It provides built-in orchestration, ensuring high availability, scalability, and efficient load balancing across containers.
-- Docker Compose: It is used to define and manage multi-container Docker applications. It specifies the services, networks, and volumes required for the application.
+- Docker Swarm
+- Docker Microservices
+- Swarm Cluster
+- Docker Compose
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
