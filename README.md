@@ -10,7 +10,7 @@ To monitor the deployment, John integrates Docker Visualizer as a microservice, 
 ## Major Tools, Environment Used in This Project:
 
 - Docker Swarm
-- Docker Microservices
+- Voting App Microservices (Run under Containers)
 - Swarm Cluster
 - Docker Compose
 
