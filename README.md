@@ -95,6 +95,6 @@ PFB the screenshot:
 **The Deployment of multi-service voting application on a Swarm manager node has been done successfully using Stack deploy and docker-compose file.
 The Docker Visualizer has been integrated as microservice to monitor the deployment and provide real-time insights.
 Also, the security group rules were set correctly at machine level.
-Hence as a result, the services (vote, redis, worker, db, result) are communicating properly and the website is being accessible properly on the browser with all the data populating correctly after the voting is done.**
+As a result, the micro-services (vote, redis, worker, db, result) are communicating properly and the website is being accessible on the browser with all the data populating correctly after the voting is done.**
 
 
