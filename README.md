@@ -90,3 +90,11 @@ PFB the screenshot:
 
 <img width="950" height="586" alt="image" src="https://github.com/user-attachments/assets/6805a8fb-611e-4224-a418-46c75c87517f" />
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+**The Deployment of multi-service voting application on a Swarm manager node has been done successfully using Stack deploy and docker-compose file.
+The Docker Visualizer has been integrated as microservice to monitor the deployment and provide real-time insights.
+Also, the security group rules were set correctly at machine level.
+Hence as a result, the services (vote, redis, worker, db, result) are communicating properly and the website is being accessible properly on the browser with all the data populating correctly after the voting is done.**
+
+
